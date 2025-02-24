@@ -1,0 +1,3 @@
+from FV version, CLANNAD_full_voice.part1.rar to part4.rar
+need to unzip and execute exe to install !!!!
+
