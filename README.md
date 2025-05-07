@@ -46,8 +46,9 @@ void dprintf(const char* fmt, ...) {
 * https://github.com/weimingtom/xclannad-gbk_fork/blob/master/xclannad-0.07h/scn2k/scn2k_cmd.cc  
 * https://github.com/weimingtom/xclannad-gbk_fork/blob/master/xclannad_merge/scn2k/scn2k_cmd.cc  
 
-## coding page  
-* font/codeconv.cc  
+## code page, cp936    
+* font/codeconv.cc
+* https://github.com/weimingtom/xclannad-gbk_fork/blob/master/xclannad_merge/font/codeconv.cc  
 
 ## weibo record  
 ```
