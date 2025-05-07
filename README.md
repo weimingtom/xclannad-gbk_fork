@@ -23,6 +23,14 @@ Copyright (C) 2004-2008  Kazunori Ueno(JAGARL)
 * https://code.google.com/archive/p/clannad-fullvoice-simplechinsese-patch/downloads
 * https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/clannad-fullvoice-simplechinsese-patch/CLANNAD_FV_2.0.rar  
 
+## script loading test  
+* https://github.com/weimingtom/xclannad-gbk_fork/blob/master/xclannad_merge/scn2k/test.cc  
+* https://github.com/weimingtom/xclannad-gbk_fork/blob/master/xclannad_merge/scn2k/Makefile  
+make test  
+
+## coding page  
+* font/codeconv.cc  
+
 ## weibo record  
 ```
 我试下编译xclannad，发现ubuntu和windows下都很容易编译，
