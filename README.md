@@ -28,6 +28,24 @@ Copyright (C) 2004-2008  Kazunori Ueno(JAGARL)
 * https://github.com/weimingtom/xclannad-gbk_fork/blob/master/xclannad_merge/scn2k/Makefile  
 make test  
 
+## script debugging output  
+* search '-> fall back to'
+* work_xclannad_v2_chinese_good.tar.gz, aaa.txt
+* search ' - cmd', toggle debug_flag = true, see scn2k/scn2k_cmd.cc  
+```
+bool debug_flag = true; //FIXME:
+//bool debug_flag = false;
+void dprintf(const char* fmt, ...) {
+	if (debug_flag) {
+		va_list ap; va_start(ap, fmt);
+		vprintf(fmt, ap);
+		va_end(ap);
+	}
+}
+```
+* https://github.com/weimingtom/xclannad-gbk_fork/blob/master/xclannad-0.07h/scn2k/scn2k_cmd.cc  
+* https://github.com/weimingtom/xclannad-gbk_fork/blob/master/xclannad_merge/scn2k/scn2k_cmd.cc  
+
 ## coding page  
 * font/codeconv.cc  
 
